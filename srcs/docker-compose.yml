@@ -1,5 +1,7 @@
 services:
   nginx:
+    build:
+      context: ./requirements/nginx
 
   wordpress:
 
