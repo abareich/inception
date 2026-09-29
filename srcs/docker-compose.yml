@@ -4,5 +4,7 @@ services:
       context: ./requirements/nginx
 
   wordpress:
+    bouild:
+      context: ./requirements/wordpress
 
   mariadb:
